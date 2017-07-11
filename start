@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# --secure
+
+exec /usr/sbin/in.tftpd --foreground --user tftp --address :69  /tftp
